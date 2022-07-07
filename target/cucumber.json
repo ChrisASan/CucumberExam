@@ -1,0 +1,154 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2370888600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TodoStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "1 User should be able to change background to Sky Blue",
+        "description": "",
+        "id": "todo-list-functionality-validation;1-user-should-be-able-to-change-background-to-sky-blue",
+        "after": [
+          {
+            "result": {
+              "duration": 635794900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TodoStepDefinition.tearDDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 143525400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "TodoStepDefinition.button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54279900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the skyblue button",
+            "match": {
+              "location": "TodoStepDefinition.i_click_on_the_skyblue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77292200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the background color will change to skyblue",
+            "match": {
+              "location": "TodoStepDefinition.the_background_color_will_change_to_skyblue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1498383100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TodoStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "2 User should be able to change background to Sky Blue",
+        "description": "",
+        "id": "todo-list-functionality-validation;2-user-should-be-able-to-change-background-to-sky-blue",
+        "after": [
+          {
+            "result": {
+              "duration": 639567400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TodoStepDefinition.tearDDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96284600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Set skywhite Background button exists",
+            "match": {
+              "location": "TodoStepDefinition.set_skywhite_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38444300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the skywhite button",
+            "match": {
+              "location": "TodoStepDefinition.i_click_on_the_skywhite_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65591800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the background color will change to skywhite",
+            "match": {
+              "location": "TodoStepDefinition.the_background_color_will_change_to_skywhite()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TODO List Functionality validation",
+    "description": "",
+    "id": "todo-list-functionality-validation",
+    "keyword": "Feature",
+    "uri": "feature/TestQ1AndQ2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Scenario3"
+      }
+    ]
+  }
+]
